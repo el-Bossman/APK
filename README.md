@@ -1,4 +1,4 @@
-# APK
+# Test de Ishihara
 README APK EPE2 
 
 Test de Ishihara  en Android
