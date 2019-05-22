@@ -2,10 +2,17 @@
 README APK EPE2 
 
 
+
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ionic-logo-landscape.svg/222px-Ionic-logo-landscape.svg.png)
+
+
+
+
 
 GNU LESSER GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
+
+![alt text](https://www.gnu.org/graphics/lgplv3-147x51.png)
 
 Copyright © 2007 Free Software Foundation, Inc. <https://fsf.org/>
 
