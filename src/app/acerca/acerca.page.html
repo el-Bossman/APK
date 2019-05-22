@@ -1,0 +1,20 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title>Acerca de</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <ion-item>
+    <ion-label>Click para visualizar</ion-label>
+  </ion-item>
+      <ion-toggle [(ngModel)]="app" color="primary" (click)="vernada()" >Ver!</ion-toggle>
+      <div id="ver">
+
+    </div> 
+    <ion-col class="center">
+        <ion-button color="danger" (click)="verhome()">Volver</ion-button>
+      </ion-col>
+
+  </ion-content>
+  

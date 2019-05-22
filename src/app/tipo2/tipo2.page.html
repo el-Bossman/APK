@@ -1,0 +1,199 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Test con Figuras </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+   
+  <div id="gg"> 
+
+  <!–– Inicio test 0 (conejo) -->
+  
+    
+  <ion-img src='assets/img/b1.jpg'></ion-img>
+  
+  <ion-list>
+    <ion-radio-group  radio-group [(ngModel)]="seleccion" >
+        <strong>
+        <p> ¿Que figura ves?</p>
+      
+      <ion-item>
+        <ion-label>Un Conejo</ion-label>
+        <ion-radio disabled="{{resj0}}" value="12" color="dark"></ion-radio>
+      </ion-item><!–– Corecta (conejo) -->
+  
+      <ion-item>
+        <ion-label>Un Perro</ion-label>
+        <ion-radio disabled="{{resj0}}" value="10" color="dark"></ion-radio>
+      </ion-item>
+  
+
+      <ion-item>
+        <ion-label>No distingo ningún figura</ion-label>
+        <ion-radio disabled="{{resj0}}" value="00" color="dark"></ion-radio>
+      </ion-item>
+    </strong>
+    </ion-radio-group>
+  </ion-list>
+
+  <ion-button expand="block" color="dark" disabled="{{resj0}}"  (click)="juego0()">Seleccionar</ion-button>
+
+  <!–– Fin test 0 -->
+
+  <!–– Inicio test 1 mariposa -->
+  <br>
+  <br>
+  <ion-img src='assets/img/b2.jpg'></ion-img>
+
+  <ion-list>
+    <ion-radio-group  radio-group [(ngModel)]="seleccion" >
+        <strong>
+            <p> ¿Que figura ves?</p>
+          
+      <ion-item>
+        <ion-label>Una Estrella</ion-label>
+        <ion-radio disabled="{{resj1}}" value="3" color="dark"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Una Mariposa</ion-label>
+        <ion-radio disabled="{{resj1}}" value="8" color="dark"></ion-radio>
+      </ion-item><!–– Corecta  -->
+  
+      <ion-item>
+        <ion-label>No distingo ningún figura</ion-label>
+        <ion-radio disabled="{{resj1}}" value="01" color="dark"></ion-radio>
+      </ion-item>
+    </strong>
+    </ion-radio-group>
+  </ion-list>
+
+  <ion-button expand="block" color="dark" disabled="{{resj1}}"  (click)="juego1()">Seleccionar</ion-button>
+
+  <!–– Fin test 1 -->
+
+  <!–– Inicio test 2 (Estrella) -->
+  <br>
+  <br>
+  <ion-img src='assets/img/b3.jpg'></ion-img>
+
+  <ion-list>
+    <ion-radio-group  radio-group [(ngModel)]="seleccion" >
+        <strong>
+            <p> ¿Que figura ves?</p>
+
+      <ion-item>
+        <ion-label>Una Estrella</ion-label>
+        <ion-radio disabled="{{resj2}}" value="15" color="dark"></ion-radio>
+      </ion-item> <!–– Corecta  -->
+  
+
+      <ion-item>
+        <ion-label>Un Triangulo</ion-label>
+        <ion-radio disabled="{{resj2}}" value="02" color="dark"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>No distingo ningún figura</ion-label>
+        <ion-radio disabled="{{resj2}}" value="17" color="dark"></ion-radio>
+      </ion-item>
+  
+      
+    </strong>
+    </ion-radio-group>
+  </ion-list>
+
+  <ion-button expand="block" color="dark" disabled="{{resj2}}"  (click)="juego2()">Seleccionar</ion-button>
+
+  <!–– Fin test 2 -->
+
+
+  <!–– Inicio test 3 Tortuga -->
+  <br>
+  <br>
+  <ion-img src='assets/img/b4.jpg'></ion-img>
+
+  <ion-list>
+    <ion-radio-group  radio-group [(ngModel)]="seleccion" >
+        <strong>
+            <p> ¿Que figura ves?</p>
+
+      <ion-item>
+        <ion-label>Un Ratón</ion-label>
+        <ion-radio disabled="{{resj3}}" value="88" color="dark"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+          <ion-label>No distingo ningún figura</ion-label>
+          <ion-radio disabled="{{resj3}}" value="03" color="dark"></ion-radio>
+        </ion-item> 
+
+      <ion-item>
+        <ion-label>Una Tortuga</ion-label>
+        <ion-radio disabled="{{resj3}}" value="16" color="dark"></ion-radio>
+      </ion-item><!–– Corecta -->
+  
+      
+    </strong>
+    </ion-radio-group>
+  </ion-list>
+
+  <ion-button expand="block" color="dark" disabled="{{resj3}}"  (click)="juego3()">Seleccionar</ion-button>
+
+  <!–– Fin test 3 -->
+
+  <!–– Inicio test 4 Caballo -->
+  <br>
+  <br>
+  <ion-img src='assets/img/b5.jpg'></ion-img>
+
+  <ion-list>
+    <ion-radio-group  radio-group [(ngModel)]="seleccion" >
+        <strong>
+            <p> ¿Que figura ves?</p>
+
+      <ion-item>
+        <ion-label>Un Caballo</ion-label>
+        <ion-radio disabled="{{resj4}}" value="73" color="dark"></ion-radio>
+      </ion-item><!–– Corecta -->
+
+      <ion-item>
+        <ion-label>Un Oso</ion-label>
+        <ion-radio disabled="{{resj4}}" value="78" color="dark"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+          <ion-label>No distingo ningún figura</ion-label>
+          <ion-radio disabled="{{resj4}}" value="04" color="dark"></ion-radio>
+        </ion-item> 
+      
+    </strong>
+    </ion-radio-group>
+  </ion-list>
+
+  <ion-button expand="block" color="dark" disabled="{{resj4}}"  (click)="juego4()">Seleccionar</ion-button>
+
+  <!–– Fin test 4 -->
+
+
+
+</div>
+<br>
+<br>
+<ion-button  expand="block" (click)="verSheet()">Valorar</ion-button>
+  <ion-grid>
+    <ion-row align-items-center>
+      <ion-col align-self-start>
+        <ion-button expand="block"  (click)="verhome()">Volver</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+    
+  
+
+
+
+    
+  
+  </ion-content>

@@ -1,0 +1,201 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Test con Numeros </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+   
+  <div id="gg"> 
+
+  <!–– Inicio test 0 -->
+  
+    
+  <ion-img src='assets/img/0.jpg'></ion-img>
+  
+  <ion-list>
+    <ion-radio-group  radio-group [(ngModel)]="seleccion" >
+        <strong>
+        <p> ¿Que Numero ves?</p>
+      
+      <ion-item>
+        <ion-label>12</ion-label>
+        <ion-radio disabled="{{resj0}}" value="12" color="dark"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>10</ion-label>
+        <ion-radio disabled="{{resj0}}" value="10" color="dark"></ion-radio>
+      </ion-item>
+  
+
+      <ion-item>
+        <ion-label>No distingo ningún numero</ion-label>
+        <ion-radio disabled="{{resj0}}" value="00" color="dark"></ion-radio>
+      </ion-item>
+    </strong>
+    </ion-radio-group>
+  </ion-list>
+
+  <ion-button expand="block" color="dark" disabled="{{resj0}}"  (click)="juego0()">Seleccionar</ion-button>
+
+  <!–– Fin test 0 -->
+
+  <!–– Inicio test 1 -->
+  <br>
+  <br>
+  <ion-img src='assets/img/1.jpg'></ion-img>
+
+  <ion-list>
+    <ion-radio-group  radio-group [(ngModel)]="seleccion" >
+        <strong>
+            <p> ¿Que Numero ves?</p>
+          
+      <ion-item>
+        <ion-label>3</ion-label>
+        <ion-radio disabled="{{resj1}}" value="3" color="dark"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>8</ion-label>
+        <ion-radio disabled="{{resj1}}" value="8" color="dark"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>No distingo ningún numero</ion-label>
+        <ion-radio disabled="{{resj1}}" value="01" color="dark"></ion-radio>
+      </ion-item>
+    </strong>
+    </ion-radio-group>
+  </ion-list>
+
+  <ion-button expand="block" color="dark" disabled="{{resj1}}"  (click)="juego1()">Seleccionar</ion-button>
+
+  <!–– Fin test 1 -->
+
+  <!–– Inicio test 2 -->
+  <br>
+  <br>
+  <ion-img src='assets/img/2.jpg'></ion-img>
+
+  <ion-list>
+    <ion-radio-group  radio-group [(ngModel)]="seleccion" >
+        <strong>
+            <p> ¿Que Numero ves?</p>
+
+      <ion-item>
+        <ion-label>No distingo ningún numero</ion-label>
+        <ion-radio disabled="{{resj2}}" value="02" color="dark"></ion-radio>
+      </ion-item> 
+
+      <ion-item>
+        <ion-label>15</ion-label>
+        <ion-radio disabled="{{resj2}}" value="15" color="dark"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>17</ion-label>
+        <ion-radio disabled="{{resj2}}" value="17" color="dark"></ion-radio>
+      </ion-item>
+  
+      
+    </strong>
+    </ion-radio-group>
+  </ion-list>
+
+  <ion-button expand="block" color="dark" disabled="{{resj2}}"  (click)="juego2()">Seleccionar</ion-button>
+
+  <!–– Fin test 2 -->
+
+
+  <!–– Inicio test 3 -->
+  <br>
+  <br>
+  <ion-img src='assets/img/3.jpg'></ion-img>
+
+  <ion-list>
+    <ion-radio-group  radio-group [(ngModel)]="seleccion" >
+        <strong>
+            <p> ¿Que Numero ves?</p>
+
+      <ion-item>
+        <ion-label>15</ion-label>
+        <ion-radio disabled="{{resj3}}" value="88" color="dark"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+          <ion-label>No distingo ningún numero</ion-label>
+          <ion-radio disabled="{{resj3}}" value="03" color="dark"></ion-radio>
+        </ion-item> 
+
+      <ion-item>
+        <ion-label>16</ion-label>
+        <ion-radio disabled="{{resj3}}" value="16" color="dark"></ion-radio>
+      </ion-item>
+  
+      
+    </strong>
+    </ion-radio-group>
+  </ion-list>
+
+  <ion-button expand="block" color="dark" disabled="{{resj3}}"  (click)="juego3()">Seleccionar</ion-button>
+
+  <!–– Fin test 3 -->
+
+  <!–– Inicio test 4 -->
+  <br>
+  <br>
+  <ion-img src='assets/img/4.jpg'></ion-img>
+
+  <ion-list>
+    <ion-radio-group  radio-group [(ngModel)]="seleccion" >
+        <strong>
+            <p> ¿Que Numero ves?</p>
+
+      <ion-item>
+        <ion-label>73</ion-label>
+        <ion-radio disabled="{{resj4}}" value="73" color="dark"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>78</ion-label>
+        <ion-radio disabled="{{resj4}}" value="78" color="dark"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+          <ion-label>No distingo ningún numero</ion-label>
+          <ion-radio disabled="{{resj4}}" value="04" color="dark"></ion-radio>
+        </ion-item> 
+      
+    </strong>
+    </ion-radio-group>
+  </ion-list>
+
+  <ion-button expand="block" color="dark" disabled="{{resj4}}"  (click)="juego4()">Seleccionar</ion-button>
+
+  <!–– Fin test 4 -->
+
+
+
+</div>
+<br>
+<br>
+
+    <ion-button  expand="block" (click)="verSheet()">Valorar</ion-button>
+ 
+  <ion-grid>
+    
+    <ion-row align-items-center>
+      <ion-col align-self-start>
+        <ion-button expand="block"  (click)="verhome()">Volver</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+    
+  
+
+
+
+    
+  
+  </ion-content>
