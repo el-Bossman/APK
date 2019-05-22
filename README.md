@@ -14,7 +14,7 @@ Si visualizas 17 o más números normales, es una exploración normal. Si son me
 Haga clic sobre la primera imagen para verla a mayor tamaño, coja lápiz y papel y anote el número que puede ver en esa imagen. A continuación pulse la tecla derecha del cursor ( -> ) para avanzar de una imagen a la siguiente de forma ordenada. Vaya anotando todos los números y al finalizar compruebe sus resultados.
 
 
-
+icono :eyeglasses:
 
 
 
