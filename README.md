@@ -1,11 +1,9 @@
 # Test de Ishihara
-README APK EPE2 
-
 Test de Ishihara  en Android
 
 ![alt text](https://testdaltonismo.com/wp-content/uploads/2016/08/Ishihara-Plate-01-38.jpg)
 
-Este APK fue idea de Ariel Gomez que queria hacer un test de Ishihara para moviles, el test de Ishihara es el test más utilizado para diagnóstico y clasificación de discromatopsias (alteraciones en la visión de colores, como el daltonismo) aunque además es muy útil para otros procesos como conocer el estado del nervio óptico y sus fibras en patologías como el Graves-Basedow o compresión nerviosa en tumores, etc.
+El test de Ishihara es el test más utilizado para diagnóstico y clasificación de discromatopsias (alteraciones en la visión de colores, como el daltonismo) aunque además es muy útil para otros procesos como conocer el estado del nervio óptico y sus fibras en patologías como el Graves-Basedow o compresión nerviosa en tumores, etc.
 
 No permite distinguir defectos del eje azul-amarillo, aunque en realidad son muy raros; los principales son del eje rojo verde: la protanopia (dalton) en la que, a grosso modo, el espectro azul-verde se ve gris y tienen el espectro rojo muy acortado(carecen del cono rojo); y la deuteranopia (Nagel) donde el verde se visualiza gris (carecen del cono verde).
 
@@ -13,8 +11,7 @@ Si visualizas 17 o más números normales, es una exploración normal. Si son me
 
 Haga clic sobre la primera imagen para verla a mayor tamaño, coja lápiz y papel y anote el número que puede ver en esa imagen. A continuación pulse la tecla derecha del cursor ( -> ) para avanzar de una imagen a la siguiente de forma ordenada. Vaya anotando todos los números y al finalizar compruebe sus resultados.
 
-
-icono :eyeglasses:
+:eyeglasses:
 
 
 
