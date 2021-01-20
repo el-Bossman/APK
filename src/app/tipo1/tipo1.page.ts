@@ -125,7 +125,7 @@ export class Tipo1Page implements OnInit {
 
     
     
-       
+    if(this.seleccion != ""){
         console.log(this.seleccion);
 
         if(this.seleccion=="12"){
@@ -145,14 +145,14 @@ export class Tipo1Page implements OnInit {
         if( this.totjuegos==5){
           this.gg();
         }
-      
+    }
   }
 
 
 
   juego1(){
 
-  
+    if(this.seleccion != ""){
     console.log(this.seleccion);
 
     if(this.seleccion=="8"){
@@ -172,11 +172,12 @@ export class Tipo1Page implements OnInit {
     if( this.totjuegos==5){
       this.gg();
     }
+  }
 }
 
 juego2(){
 
-  
+  if(this.seleccion != ""){
   console.log(this.seleccion);
 
   if(this.seleccion=="15"){
@@ -195,12 +196,13 @@ juego2(){
   console.log("tot: "+ this.totjuegos);
   if( this.totjuegos==5){
     this.gg();
+    }
   }
 }
 
 juego3(){
 
-  
+  if(this.seleccion != ""){
   console.log(this.seleccion);
 
   if(this.seleccion=="16"){
@@ -219,12 +221,13 @@ juego3(){
   console.log("tot: "+ this.totjuegos);
   if( this.totjuegos==5){
     this.gg();
+   }
   }
 }
 
 juego4(){
 
-  
+  if(this.seleccion != ""){
   console.log(this.seleccion);
 
   if(this.seleccion=="73"){
@@ -244,6 +247,7 @@ juego4(){
   if( this.totjuegos==5){
     this.gg();
   }
+ }
 }
 
 
